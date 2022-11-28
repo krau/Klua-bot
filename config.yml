@@ -1,0 +1,8 @@
+# bot的token
+token: ''
+
+#代理设置，如不需设置请留空
+proxy: ''
+
+#涩图api设置
+setuapi: ''
