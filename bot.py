@@ -15,7 +15,7 @@ from Helper import Helper
 helper = Helper()
 
 '''读取与设定配置'''
-config = helper.read_config('configtest.yml')
+config = helper.read_config('config.yml')
 
 TOKEN = config['token']
 API = config['api']
