@@ -4,5 +4,14 @@ token: ''
 #代理设置，如不需设置请留空
 proxy: ''
 
-#涩图api设置
-setuapi: ''
+# api设置
+api: ''
+
+# 回复概率设置，在[0,1]区间取值
+pr_sese: 0.9
+pr_henan: 0.5
+pr_op: 0.2
+pr_sleep: 1
+pr_morning: 1
+pr_niubi: 0.3
+pr_aoligei: 0.1
