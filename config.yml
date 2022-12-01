@@ -8,10 +8,10 @@ proxy: ''
 api: ''
 
 # 回复概率设置，在[0,1]区间取值
-pr_sese: 0.9
+pr_sese: 0.7
 pr_henan: 0.5
 pr_op: 0.2
 pr_sleep: 1
 pr_morning: 1
 pr_niubi: 0.3
-pr_aoligei: 0.1
+pr_aoligei: 0.2

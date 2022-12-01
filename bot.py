@@ -53,7 +53,7 @@ def sese(update: Update, context: CallbackContext):
 
 def henan(update: Update, context: CallbackContext):
     '''河南怎么你了'''
-    texts = ['河南怎么你了?', '河南?', '你井盖马上就没!']
+    texts = ['河南怎么你了?', '河南?', '你井盖马上就没!','你也配骂河南人?']
     if helper.random_unit(pr_henan):
         text = random.choice(texts)
         context.bot.send_message(chat_id=update.effective_chat.id, text=text)
@@ -76,9 +76,11 @@ def words_sleep(update: Update, context: CallbackContext):
 def words_morning(update: Update, context: CallbackContext):
     if helper.random_unit(pr_morning):
         text = words.get_moring()
+        picurls = ['https://telegraph-image.pages.dev/file/88aa11284adbaaeb3556e.png','https://telegraph-image.pages.dev/file/f600e072974769d3aa66c.png']
+        picurl = random.choice(picurls)
         context.bot.send_message(chat_id=update.effective_chat.id, text=text)
         context.bot.send_photo(chat_id=update.effective_chat.id,
-                            photo='https://telegraph-image.pages.dev/file/f600e072974769d3aa66c.png')
+                            photo=picurl)
 
 
 def words_niubi(update: Update, context: CallbackContext):
