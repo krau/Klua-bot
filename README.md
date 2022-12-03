@@ -1,5 +1,5 @@
-# py-tgbot-klua
-Krau的telegram bot —Klua
+# Klua-bot
+A krau's bot
 
 ## 功能
 - 涩图
